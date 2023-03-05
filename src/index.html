@@ -1,0 +1,373 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="/dist/output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- FONTS -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400;700&family=Poppins:ital,wght@0,300;0,400;1,200&display=swap" rel="stylesheet">
+
+<style>
+    body {
+        font-family: 'Oxygen',sans-serif;
+    }
+</style>
+
+  
+</head>
+<body >
+    <!-- Navbar -->
+    <nav class="relative container mx-auto p-6">
+        <!-- Flex container -->
+        <div class="flex items-center justify-between">
+          <!-- Logo -->
+          <div class="pt-2">
+            <img class="w-16"  src="./images/logo.png" alt="" />
+          </div>
+          <!-- Menu Items -->
+          <div class="hidden space-x-6 md:flex">
+            <a href="#" class="hover:text-darkGrayishBlue text-1xl md:text-1xl text-gray-700 font-semibold ">Home</a>
+            <a href="#" class="hover:text-darkGrayishBlue text-1xl md:text-1xl text-gray-700 font-semibold">About Us</a>
+            <a href="#" class="hover:text-darkGrayishBlue text-1xl md:text-1xl text-gray-700 font-semibold">Services</a>
+            <a href="#" class="hover:text-darkGrayishBlue text-1xl md:text-1xl text-gray-700 font-semibold">KDG Foundation</a>
+            <a href="#" class="hover:text-darkGrayishBlue text-1xl md:text-1xl text-gray-700 font-semibold">Contact us</a>
+          </div>
+        
+  
+          <!-- Hamburger Icon -->
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+  
+        <!-- Mobile Menu -->
+        <div class="md:hidden">
+          <div
+            id="menu"
+            class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+          >
+            <a href="#">Pricing</a>
+            <a href="#">Product</a>
+            <a href="#">About Us</a>
+            <a href="#">Careers</a>
+            <a href="#">Community</a>
+          </div>
+        </div>
+      </nav>
+
+
+        
+<!-- Slider -->
+
+<section class="">
+    <div class="container px-5 py-6 mx-auto">
+        
+     
+
+    </div>
+</section>
+
+
+    <!-- Services -->
+
+    <section class=" flex items-center text-gray-600 ">
+        <div class="container px-5 py-6 mx-auto">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-4xl text-gray-700 font-semibold">Services</h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 sm:w-1/2 lg:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://picsum.photos/id/188/720/400" alt="blog">
+                        <div class="p-6  transition duration-300 ease-in">
+                        
+                            <h1 class="text-2xl md:text-2xl font-semibold mb-3">Tax Compliance Services</h1>
+                            <p class="leading-relaxed mb-3">It Includes Tax consultation, Monthly tax returns, Annual tax returns fillings and Auditing. We ensure the client business remains compliant with statutory bodies such as registrar of companies, Tax Issues, County governments etc.</p>
+                            <a class=" bg-blue-500 text-white py-2 px-4 inline-flex items-center rounded font-bold md:mb-2 lg:mb-0">Read More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://picsum.photos/id/1016/720/400" alt="blog">
+                        <div class="p-6  transition duration-300 ease-in">
+                         
+                            <h1 class="text-2xl font-semibold mb-3">Human Resource Services</h1>
+                            <p class="leading-relaxed mb-3">It includes Recruitment, Training & Development. As a standard element of recruitment process, each candidate is assessed through a competency-based interview and objectivly presented with full interview reports<p>
+                                <a class=" bg-blue-500 text-white py-2 px-4 inline-flex items-center rounded font-bold md:mb-2 lg:mb-0">Read More
+                                    <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                        fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M5 12h14"></path>
+                                        <path d="M12 5l7 7-7 7"></path>
+                                    </svg>
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://picsum.photos/id/1011/720/400" alt="blog">
+                        <div class="p-6  transition duration-300 ease-in">
+                           
+                            <h1 class="text-2xl font-semibold mb-3">Business Services</h1>
+                            <p class="leading-relaxed mb-3">It includes Business Valuation,Business registration,Annual returns,Share transfer, Change in directorship. We invest time to ensure that we understand your business; its organizational make-up,culture, strategic direction, performance goals and competitive position.</p>
+                            <a class=" bg-blue-500 text-white py-2 px-4 inline-flex items-center rounded font-bold md:mb-2 lg:mb-0">Read More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/4">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://picsum.photos/id/1011/720/400" alt="blog">
+                        <div class="p-6  transition duration-300 ease-in">
+                           
+                            <h1 class="text-2xl font-semibold mb-3">Other Tax Servixes</h1>
+                            <p class="leading-relaxed mb-3">We ensure the client business remains compliant with statutory bodies such as registrar of companies, Tax Issues, County governments etc.</p>
+                            <a class=" bg-blue-500 text-white py-2 px-4 inline-flex items-center rounded font-bold md:mb-2 lg:mb-0">Read More
+                                <svg class="w-4 h-4 ml-2" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"
+                                    fill="none" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M5 12h14"></path>
+                                    <path d="M12 5l7 7-7 7"></path>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Pattners -->
+    <section class="md:h-full flex items-center text-gray-600">
+        <div class="container px-5 py-6 mx-auto">
+            <div class="text-center mb-12">
+                <h1 class="text-4xl md:text-4xl text-gray-700 font-semibold">Pattners</h1>
+            </div>
+            <div class="flex flex-wrap -m-4">
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://picsum.photos/id/188/720/400" alt="blog">
+                        <div class="p-6  transition duration-300 ease-in">
+                        
+                            <h1 class="text-2xl font-semibold mb-3">CPA- Dominic A. Midigo</h1>
+                            <p class="leading-relaxed mb-3">
+                                Mr. Midigo holds MSC- Finance from the University of Nairobi
+                                , B.Com (Finance), CPA-K, CPS-K and currently undertaking PHD degree.
+                                He has over 20 years’ hands on working experience. He has held Head of department responsible
+                                positions in leading companies among them; Shear logic Management consultant’s ltd, Catholic
+                                University of Eastern Africa.</p>
+                                
+
+                                  
+                           
+                             
+                                
+                                  
+                    
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://picsum.photos/id/1016/720/400" alt="blog">
+                        <div class="p-6  transition duration-300 ease-in">
+                         
+                            <h1 class="text-2xl font-semibold mb-3">Francis Young Athoo (B- COM, CPA (K),)</h1>
+                            <p class="leading-relaxed mb-3">
+                                He holds a B.Com degree in Business Administration, and CPA (K).
+                                He has worked for various leading Organizations among them; Action aid Kenya, Sheer logic
+                                Management consultants. He is a member of the institute of Certified Public Accountants of
+                                Kenya.  
+                                
+                                
+                                <p>
+
+
+                                  
+                           
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+                        <img class="lg:h-72 md:h-48 w-full object-cover object-center"
+                            src="https://picsum.photos/id/1011/720/400" alt="blog">
+                        <div class="p-6  transition duration-300 ease-in">
+                           
+                            <h1 class="text-2xl font-semibold mb-3">Reinhard Ranji (BBM – Human Resource Management)</h1>
+                            <p class="leading-relaxed mb-3">
+                                Mr. Ranji holds a BBM degree in Human resource management. He has over 15 years’
+                                experience in human resource management with various companies. He is a member of the
+                                Institute of human resource management of Kenya (HRM).                            </p>
+
+                             
+                            
+                        </div>
+                    </div>
+                </div>
+           
+
+            </div>
+        </div>
+    </section>
+
+    <!-- map -->
+
+
+    <section class="md:h-full flex items-center   text-gray-600  ">
+        <div class="container px-5 py-6 mx-auto">
+         
+            <div class="flex flex-wrap -m-4  ">
+                <div class="p-4 sm:w-1/2 lg:w-1/2">
+                    <div class="h-full    overflow-hidden">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.27264561575!2d36.816305!3d-1.282935!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f10d22f42bf35%3A0x449d7ec7b378dfeb!2sUtalii%20House!5e0!3m2!1sen!2ske!4v1676800314835!5m2!1sen!2ske" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                  
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/2">
+                    <div class="h-full  overflow-hidden">
+                        <img src="./images/utalii.jpg" alt="" srcset="">
+                       
+                     
+                    </div>
+                </div>
+               
+                
+              
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact us -->
+
+    <section class="md:h-full flex items-center   text-white bg-lime-600  ">
+        <div class="container px-5 py-6 mx-auto">
+         
+            <div class="flex flex-wrap -m-4  ">
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full    overflow-hidden">
+                  
+                        <div class="p-6  transition duration-300 ease-in">
+                           
+                            <h1 class="text-2xl font-semibold mb-3">Contact us</h1>
+                        
+                            <p class="leading-relaxed mb-3">IKaybros Clobal Consulting Limited </p>
+                            <p class="leading-relaxed mb-3">  Utalii House 10th Floor room 1020</p>
+                            <p class="leading-relaxed mb-3"> P.O. Box 7563-00300</p>
+                            <p class="leading-relaxed mb-3">  Nairobi-Kenya</p>
+                            <p class="leading-relaxed mb-3">  Tell No:+254722612401/+254700136900</p>
+                            <p class="leading-relaxed mb-3">Email : kaybrosglobalconsulting@gmail.com.</p>
+
+                          
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full  overflow-hidden">
+                       
+                        <div class="p-6  transition duration-300 ease-in">
+                           
+                            <h1 class="text-2xl font-semibold mb-3">Site Map</h1>
+                            <div class=" flex flex-row space-x-28">
+                                <p class="leading-relaxed mb-3">Home</p>
+                               
+                                <p class="leading-relaxed mb-3">About us</p>
+                                
+
+                            </div>
+                          
+                            <div class=" flex flex-row space-x-28">
+                                <p class="leading-relaxed mb-3">Services</p>
+                                <p class="leading-relaxed mb-3">Contact us</p>
+                            </div>
+                          
+                            <div class="flex items-center flex-wrap  space-x-3   ">
+                                <span
+                                class=" ">
+                                <svg class="w-4 h-4 mr-1 px-2"  fill="none">
+                                    <img  class="h-12" src="/src/images/facebook.png" alt="" srcset="">
+                                  
+                                </svg>
+                            </span>
+                             
+                                <span
+                                    class="">
+                                    <svg class="w-4 h-4 mr-1 "   fill="none">
+                                        <img  class="h-12" src="/src/images/LinkedIng.png" alt="" srcset="">
+                                        
+                                    </svg>
+                                </span>
+                                <span class="">
+                                    <svg class="w-4 h-4 mr-1" stroke="currentColor" stroke-width="2" fill="none">
+                                    
+                                        <img  class="h-12 rounded-full" src="/src/images/download.png" alt="" srcset="">
+                                    </svg>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-4 sm:w-1/2 lg:w-1/3">
+                    <div class="h-full  overflow-hidden">
+                     
+                        <div class="p-6  transition duration-300 ease-in">
+                            <h1 class="text-2xl font-semibold mb-3">Subscribe to our news letter</h1>
+                            <div class="flex flex-wrap -mx-3 mb-6">
+                                <div class="w-full px-3">
+                                  
+                                  <input class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500" id="grid-password" type="password" placeholder="Email Address">
+
+                                </div>
+                              </div>
+                              <button class="bg-orange-800 text-white font-bold py-2 px-4 rounded">
+                                Subscribe
+                              </button>
+                            
+                         
+                        
+                        </div>
+                    </div>
+                </div>
+                
+              
+
+            </div>
+        </div>
+    </section>
+    <script src="js/script.js"></script>
+
+</body>
+
+
+</html>
